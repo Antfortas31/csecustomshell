@@ -285,23 +285,20 @@ int shellExecuteInput(char **args)
   }
   else {
     if (strcmp(args[0], builtin_commands[0]) == 0 && args[1] != NULL){
-      shellCD(args);
+      return shellCD(args);
     }
     else if (strcmp(args[0], builtin_commands[0]) == 0 && args[1] == NULL){
       printf ("CD expects token\n");
       return 1;
     }
     else if (strcmp(args[0],builtin_commands[1]) == 0){
-      shellHelp(args);
-      return 1;
+      return shellHelp(args);
     }
     else if (strcmp(args[0],builtin_commands[2]) == 0){
-      shellExit(args);
-      return 0;
+      return shellExit(args);
     }
     else if (strcmp(args[0],builtin_commands[3]) == 0 && args[1] != NULL){
-      shellUsage(args);
-      return 1;
+      return shellUsage(args);
     }
     else if (strcmp(args[0],builtin_commands[3]) == 0 && args[1] == NULL){
       printf("Usage expects token\n");
