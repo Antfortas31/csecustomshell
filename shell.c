@@ -293,12 +293,15 @@ int shellExecuteInput(char **args)
     }
     else if (strcmp(args[0],builtin_commands[1]) == 0){
       shellHelp(args);
+      return 1;
     }
     else if (strcmp(args[0],builtin_commands[2]) == 0){
       shellExit(args);
+      return 0;
     }
     else if (strcmp(args[0],builtin_commands[3]) == 0 && args[1] != NULL){
       shellUsage(args);
+      return 1;
     }
     else if (strcmp(args[0],builtin_commands[3]) == 0 && args[1] == NULL){
       printf("Usage expects token\n");
@@ -332,7 +335,8 @@ int shellExecuteInput(char **args)
       }
     }
   }
-
+  printf("Unknown error with input, this shouldn't show since all cases should be covered\n");
+  return 1;
 }
 
 /**
