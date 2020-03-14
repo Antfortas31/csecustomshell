@@ -1,0 +1,31 @@
+394 with FD 3
+PID 394 Daemon writing line 0 to the file.  
+PID 394 Daemon writing line 1 to the file.  
+417 with FD 3
+PID 417 Daemon writing line 0 to the file.  
+PID 394 Daemon writing line 2 to the file.  
+PID 417 Daemon writing line 1 to the file.  
+PID 394 Daemon writing line 3 to the file.  
+PID 417 Daemon writing line 2 to the file.  
+PID 394 Daemon writing line 4 to the file.  
+PID 417 Daemon writing line 3 to the file.  
+PID 394 Daemon writing line 5 to the file.  
+PID 417 Daemon writing line 4 to the file.  
+PID 394 Daemon writing line 6 to the file.  
+PID 417 Daemon writing line 5 to the file.  
+PID 394 Daemon writing line 7 to the file.  
+PID 417 Daemon writing line 6 to the file.  
+PID 394 Daemon writing line 8 to the file.  
+PID 417 Daemon writing line 7 to the file.  
+PID 394 Daemon writing line 9 to the file.  
+736 with FD 3
+PID 736 Daemon writing line 0 to the file.  
+747 with FD 3
+PID 747 Daemon writing line 0 to the file.  
+PID 736 Daemon writing line 1 to the file.  
+PID 747 Daemon writing line 1 to the file.  
+PID 736 Daemon writing line 2 to the file.  
+PID 747 Daemon writing line 2 to the file.  
+PID 736 Daemon writing line 3 to the file.  
+PID 747 Daemon writing line 3 to the file.  
+PID 736 Daemon writing line 4 to the file.  
